@@ -5,8 +5,8 @@ const config = {
   async rewrites() {
     return [
       {
-        destination: '/products/:path*',
-        source: 'https://zd-286529-2.netlify.app/legacy/products/:path*'
+        destination: 'https://zd-286529-2.netlify.app/legacy/products/:path*',
+        source: '/products/:path*'
       }
     ]
   }
