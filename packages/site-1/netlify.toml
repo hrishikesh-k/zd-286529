@@ -2,6 +2,15 @@
   command = "npm run build -w=zd-286529-1"
   publish = "./packages/site-1/.next/"
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  force = true
+  from = "/products/*"
+  status = 200
+  to = "https://zd-286529-2.netlify.app/legacy/products/:splat"
+
 [[redirects]]
   force = true
   from = "/legacy/_next/*"
