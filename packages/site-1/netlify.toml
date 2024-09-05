@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build -w=zd-286529-1"
+  publish = "./packages/site-1/.next/"
+
+[[redirects]]
+  force = true
+  from = "/legacy/_next/*"
+  status = 200
+  to = "https://zd-286529-2.netlify.app/legacy/_next/:splat"

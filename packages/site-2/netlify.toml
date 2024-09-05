@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build -w=zd-286529-2"
+  publish = "./packages/site-2/.next/"
