@@ -7,6 +7,12 @@
 
 [[redirects]]
   force = true
+  from = "/products"
+  status = 200
+  to = "https://zd-286529-2.netlify.app/legacy/products"
+
+[[redirects]]
+  force = true
   from = "/products/*"
   status = 200
   to = "https://zd-286529-2.netlify.app/legacy/products/:splat"
